@@ -1,0 +1,73 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bolaw img{
+    height: 60px;
+}
+
+.wikitext img{
+    height: 10px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: blue;
+}
+.header h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.contenedorgen{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.izquierda{
+    flex: 0 0 200px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid red;
+    text-decoration: none;
+    color: inherit;
+}
+
+.derecha{
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 15px;
+    margin-left: 1500px;
+    margin-top: -687px;
+    justify-content: flex-end;
+    border: 3px solid red;
+}
+
+nav{
+    display: flex;
+    justify-content: left;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 90px;
+}
+
+.navegar{
+    margin-left: 0px;
+}
+
+.centro{
+    margin-left: 250px;
+    margin-right: 400px;
+    margin-top: -150px;
+    border: 3px solid red;
+}
+.titulo{
+    margin-left: 100px;
+    margin-top:-80px;
+}
