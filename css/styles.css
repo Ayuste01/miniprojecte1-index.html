@@ -34,7 +34,7 @@ a{
     flex: 0 0 200px;
     padding: 15px;
     border-radius: 8px;
-    border: 2px solid red;
+    border: 1px solid rgb(0, 0, 0);
     text-decoration: none;
     color: inherit;
 }
@@ -43,10 +43,13 @@ a{
     display: flex;
     background-color: #f5f5f5;
     padding: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-left: 1500px;
     margin-top: -687px;
     justify-content: flex-end;
-    border: 3px solid red;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(223, 223, 223);
 }
 
 nav{
@@ -65,7 +68,10 @@ nav{
     margin-left: 250px;
     margin-right: 400px;
     margin-top: -150px;
-    border: 3px solid red;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(223, 223, 223);
 }
 .titulo{
     margin-left: 100px;
